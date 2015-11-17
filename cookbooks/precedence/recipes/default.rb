@@ -9,4 +9,4 @@
 
 node.default['target'] = 'recipes/default.rb'
 
-Chef::Log.info("node['target'] = -#{node['target']}-")
+log("node['target'] = -#{node['target']}-")
