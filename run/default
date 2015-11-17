@@ -1,1 +1,4 @@
+#!/bin/bash
+
+set -x
 chef-client -z -o precedence --minimal-ohai
